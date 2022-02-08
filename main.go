@@ -13,64 +13,64 @@ import (
 	// webctrl "github.com/FloatTech/zbputils/control/web" // web 后端控制
 
 	// 词库类
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_ai_reply" // 人工智能回复
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_atri"     // ATRI词库
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_chat"     // 基础词库
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_ai_reply" // 人工智能回复
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_atri"     // ATRI词库
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_chat"     // 基础词库
 
 	// 实用类
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_b14"          // base16384加解密
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_github"       // 搜索GitHub仓库
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_manager"      // 群管
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_nbnhhsh"      // 拼音首字母缩写释义工具
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_runcode"      // 在线运行代码
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_b14"          // base16384加解密
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_github"       // 搜索GitHub仓库
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_manager"      // 群管
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_nbnhhsh"      // 拼音首字母缩写释义工具
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_runcode"      // 在线运行代码
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_sleep_manage" // 统计睡眠时间
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_translation"  // 翻译
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_translation"  // 翻译
 
 	// 娱乐类
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin_wtf"       // 鬼东西
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_ai_false"     // 服务器监控
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_book_review"  // 哀伤雪刃吧推书记录
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_cangtoushi"   // 藏头诗
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_book_review"  // 哀伤雪刃吧推书记录
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_cangtoushi"   // 藏头诗
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_choose"       // 选择困难症帮手
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_chouxianghua" // 说抽象话
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_chouxianghua" // 说抽象话
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_cpstory"      // cp短打
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_curse"        // 骂人
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_fortune"      // 运势
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_funny"        // 笑话
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_funny"        // 笑话
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_gif"          // 制图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_hs"           // 炉石
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_hs"           // 炉石
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_juejuezi"     // 绝绝子生成器
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_minecraft"    // MCSManager
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_moyu"         // 摸鱼
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_minecraft"    // MCSManager
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_moyu"         // 摸鱼
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_music"        // 点歌
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_novel"        // 铅笔小说网搜索
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_novel"        // 铅笔小说网搜索
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_omikuji"      // 浅草寺求签
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_reborn"       // 投胎
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_score"        // 分数
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_shadiao"      // 沙雕app
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_score"        // 分数
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_shadiao"      // 沙雕app
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_shindan"      // 测定
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_wangyiyun"    // 网易云音乐热评
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_wangyiyun"    // 网易云音乐热评
 
 	// b站相关
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_bilibili"       // 查询b站用户信息
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_bilibili_parse" // b站视频链接解析
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_bilibili"       // 查询b站用户信息
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_bilibili_parse" // b站视频链接解析
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin_bilibili_push" // b站推送
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_diana" // 嘉心糖发病
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_diana" // 嘉心糖发病
 
 	// 二次元图片
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_acgimage"      // 随机图片与AI点评
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_aiwife"        // 随机老婆
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_coser"         // 三次元小姐姐
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_danbooru"      // DeepDanbooru二次元图标签识别
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_acgimage"      // 随机图片与AI点评
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_aiwife"        // 随机老婆
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_coser"         // 三次元小姐姐
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_danbooru"      // DeepDanbooru二次元图标签识别
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_image_finder"  // 关键字搜图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_lolicon"       // lolicon 随机图片
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_nativesetu"    // 本地涩图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_nativewife"    // 本地老婆
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_nsfw"          // nsfw图片识别
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_lolicon"       // lolicon 随机图片
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_nativesetu"    // 本地涩图
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_nativewife"    // 本地老婆
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_nsfw"          // nsfw图片识别
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_saucenao"      // 以图搜图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_scale"         // 叔叔的AI二次元图片放大
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_setutime"      // 来份涩图
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_scale"         // 叔叔的AI二次元图片放大
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_setutime"      // 来份涩图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_tracemoe"      // 搜番
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_vtb_quotation" // vtb语录
 
@@ -113,7 +113,7 @@ func init() {
 	// 直接写死 URL 时，请更改下面第二个参数
 	url = flag.String("u", "ws://127.0.0.1:6700", "Set Url of WSClient.")
 	// 默认昵称
-	adana = flag.String("n", "椛椛", "Set default nickname.")
+	adana = flag.String("n", "狐狐", "Set default nickname.")
 	prefix = flag.String("p", "/", "Set command prefix.")
 
 	flag.Parse()
@@ -175,7 +175,7 @@ func main() {
 			NickName:      append([]string{*adana}, nicks...),
 			CommandPrefix: *prefix,
 			// SuperUsers 某些功能需要主人权限，可通过以下两种方式修改
-			// SuperUsers: []string{"12345678", "87654321"}, // 通过代码写死的方式添加主人账号
+			// SuperUsers: []string{"1546414231"}, // 通过代码写死的方式添加主人账号
 			SuperUsers: flag.Args(), // 通过命令行参数的方式添加主人账号
 			Driver:     []zero.Driver{driver.NewWebSocketClient(*url, *token)},
 		},
